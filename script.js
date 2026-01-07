@@ -65,3 +65,8 @@ function OffcanvasMenus() {
   });
 }
 OffcanvasMenus();
+
+      const date = new Date();
+      document.querySelector(
+        "#copyright"
+      ).innerHTML = `RedTheme. © ${date.getFullYear()} - Designed by Huzaifa A`;
